@@ -1,0 +1,30 @@
+body {
+    background-image: url(img/IMG_20221114_165655_067.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-color: cadetblue;
+    width: 400px;
+    color: #fff;
+    padding: 30px;
+    text-align: center;
+    border: 3px solid #fff;
+}
+
+.container select{
+    width: 100%;
+    padding: 7px;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.container h2{
+    font-size: 4rem;
+    letter-spacing: 4px;
+}
